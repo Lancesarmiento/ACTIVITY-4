@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(0, 119, 128);
+    text-align: center;	
+}
+
+.btn-click{
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+
+.quote-text{
+    margin-top: 20%;
+    background-color: rgb(247, 0, 255);
+    font-family: 'Serif ', 'Serif ', Calibri, 'Trebuchet MS', Serif ;
+    font-size: 25px;
+}
+
+.copyQuote:hover{
+    margin-top: 8%;
+    background-color:red;
+    padding: 12px;
+    border: -12px;
+    font-size: 32px;
+}
+
+.copyQuote {
+    background-color: #1ec6d8;
+    border-radius: 18px;
+    color: #ffffff;
+    font-family: Serif l;
+    font-size: 17px;
+    padding: 7px 22px;
+
+}
+.copyQuote:active{
+    list-style-type: none;
+}
+
+.new-quote {
+    background-color: #1ec6d8;
+    border-radius: 18px;
+    color: #ffffff;
+    font-family: Serif ;
+    font-size: 17px;
+    padding: 7px 22px;
+}
+.new-quote:active {
+    position: relative;
+    top: 1px;
+
+}
+
+.new-quote:hover {
+    background-color: plum;
+    color: white;
+    border-radius: 4px;
+    width: 107px;
+    padding: 12px; 
+    border: -12px;
+    font-weight: bold;
+}
+.new-quote:active {
+    position: relative;
+    top: 1px;
+}
+
+footer {
+    margin-top: 15%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: rgb(24, 19, 19);
+    text-align: center;
+    color: white;
+    font-family: 'Sans-serif ', 'Sans-serif ', 'Fantasy', 'Cursive', Serif;
+    font-size: large;
+}
